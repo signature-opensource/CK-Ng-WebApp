@@ -136,7 +136,7 @@ public partial class DotnetSolution : ICIWorkflow
                     MaxCpuCount = 1
                 }
             };
-            _globalInfo.Cake.DotNetTest( null, options );
+            _globalInfo.Cake.DotNetTest( SolutionFileName, options );
         }
         _globalInfo.WriteCommitMemoryKey( memKey );
     }

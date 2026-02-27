@@ -255,5 +255,4 @@ public class StandardGlobalInfo
         }
         return this;
     }
-
 }
