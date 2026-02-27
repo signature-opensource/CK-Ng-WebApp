@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Demo/">
+    <Project Path="Demo/CK.Ng.WebApp.Demo.App/CK.Ng.WebApp.Demo.App.csproj" />
+    <Project Path="Demo/CK.Ng.WebApp.Demo.Builder/CK.Ng.WebApp.Demo.Builder.csproj" />
+    <Project Path="Demo/CK.Ng.WebApp.Demo.Host/CK.Ng.WebApp.Demo.Host.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="NuGet.config" />
+    <File Path="RepositoryInfo.xml" />
+  </Folder>
+  <Project Path="CK.Ng.WebApp/CK.Ng.WebApp.csproj" />
+  <Project Path="CodeCakeBuilder/CodeCakeBuilder.csproj" />
+</Solution>

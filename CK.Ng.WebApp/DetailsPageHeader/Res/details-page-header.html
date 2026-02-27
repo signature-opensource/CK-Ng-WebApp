@@ -1,0 +1,8 @@
+<button class="ck-details-page-header-back" nz-button nzType="text" (click)="returnClicked.emit()">
+  <fa-icon class="ck-btn-icon" [icon]="returnIcon"></fa-icon>
+  <span>{{ 'Button.Back' | translate }}</span>
+</button>
+<button class="ck-details-page-header-refresh" nz-button nzType="primary" (click)="refreshClicked.emit()">
+  <fa-icon class="ck-btn-icon" [icon]="refreshIcon"></fa-icon>
+  <span>{{ 'Button.Refresh' | translate }}</span>
+</button>

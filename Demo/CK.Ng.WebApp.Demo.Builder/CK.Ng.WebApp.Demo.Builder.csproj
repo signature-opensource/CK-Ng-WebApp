@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CK.AppBuilder" Version="32.1.1" />
+    <PackageReference Include="CK.Cris.AspNet.Engine" Version="0.54.2" />
+    <PackageReference Include="CK.Setupable.Engine" Version="32.1.2" />
+    <PackageReference Include="CK.SqlServer.Setup.Engine" Version="32.1.2" />
+    <PackageReference Include="CK.TS.Angular.Engine" Version="0.30.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CK.Ng.WebApp.Demo.App\CK.Ng.WebApp.Demo.App.csproj" />
+  </ItemGroup>
+</Project>

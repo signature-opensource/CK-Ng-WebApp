@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+      
+      <!-- It's a mess. See https://github.com/dotnet/project-system/issues/3619 -->
+    <RunWorkingDirectory>$(MSBuildProjectDirectory)</RunWorkingDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.20" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CK.Ng.WebApp.Demo.Builder\CK.Ng.WebApp.Demo.Builder.csproj" ReferenceOutputAssembly="false" Private="false" />
+    <ProjectReference Include="..\CK.Ng.WebApp.Demo.App\CK.Ng.WebApp.Demo.App.csproj" />
+  </ItemGroup>
+</Project>

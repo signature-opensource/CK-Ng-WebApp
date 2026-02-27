@@ -1,0 +1,12 @@
+{
+  "Demo.SideBar.Home": "Home",
+  "Demo.SideBar.Details": "Details",
+  "User.PasswordSet": "Your password has successfully been modified.",
+  "User.UserUpdated": "Your profile has successfully been updated.",
+  "User.UserUpdateFailed": "An error occured while updating your profile.",
+  "Demo.Home.Title": "CK.Ng.WebApp Demo",
+  "Demo.Details.Section1.Title": "Section 1",
+  "Demo.Details.Section1.Content": "This is the first details section content.",
+  "Demo.Details.Section2.Title": "Section 2",
+  "Demo.Details.Section2.Content": "This is the second details section content."
+}

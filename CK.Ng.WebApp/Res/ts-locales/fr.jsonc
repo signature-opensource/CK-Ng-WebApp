@@ -1,0 +1,26 @@
+{
+  "Button.ManuallyComplete": "Completer manuellement",
+  "CK.WebApp.Archived.F.Label": "Archivée",
+  "CK.WebApp.Archived.M.Label": "Archivé",
+  "CK.WebApp.CompletionDate.Label": "Date de complétion",
+  "CK.WebApp.CreationDate.Label": "Date de création",
+  "CK.WebApp.Filter.State.Placeholder": "Sélectionnez des types",
+  "CK.WebApp.Search.Placeholder": "Recherchez...",
+  "CK.WebApp.SideBar.HeadLine.General": "Général",
+  "CK.WebApp.State.Label": "État",
+  "CK.WebApp.StartDate.Label": "Date de début",
+  "CK.WebApp.All.Label": "Tout",
+  "CK.WebApp.All.F.Label": "Toutes",
+  "CK.WebApp.All.M.Label": "Tous",
+
+  "CK.WebApp.State.Archived.F": "Archivée",
+  "CK.WebApp.State.Archived.M": "Archivé",
+  "CK.WebApp.State.Created.F": "Créée",
+  "CK.WebApp.State.Created.M": "Créé",
+  "CK.WebApp.State.Completed.F": "Completée",
+  "CK.WebApp.State.Completed.M": "Completé",
+  "CK.WebApp.State.Imported.F": "Importée",
+  "CK.WebApp.State.Imported.M": "Importé",
+  "CK.WebApp.State.InProgress": "En cours",
+  "CK.WebApp.State.Waiting": "En attente"
+}

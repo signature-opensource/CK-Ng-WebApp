@@ -1,0 +1,25 @@
+ck-details-page-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  padding: 1.5rem 1rem;
+  border-radius: @ck-border-radius;
+  font-size: @regular-font-size;
+
+  ck-details-page-header {
+    flex-shrink: 0;
+    margin-bottom: 1rem;
+  }
+
+  [pageHeader] {
+    flex-shrink: 0;
+  }
+
+  .ck-details-page-content {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+    padding-right: 0.5rem;
+  }
+}
