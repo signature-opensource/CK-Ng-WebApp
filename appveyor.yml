@@ -4,6 +4,7 @@ environment:
 version: build{build}
 image: Visual Studio 2022
 clone_folder: C:\CKli-World\CK-Crs-Projects\CK-Ng-WebApp
+services: mssql2017
 on_finish:
     - ps: >-
           Write-Host "Collecting logs..."
