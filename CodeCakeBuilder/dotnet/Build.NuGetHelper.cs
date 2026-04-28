@@ -134,6 +134,11 @@ public partial class Build
             {
                 throw new NotSupportedException( "Should not be called in this scenario." );
             }
+
+            public void SaveAuditSources( IEnumerable<PackageSource> sources )
+            {
+                throw new NotImplementedException();
+            }
         }
 
         static NuGetHelper()
